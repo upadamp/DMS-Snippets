@@ -1,0 +1,35 @@
+{
+  "Variation Template": {
+    "prefix": "!dms-variation",
+    "body": [
+      "module.exports = function variation (options, cb) {",
+      "  const unipro = require('@unipro/dms-utils')(options, { agency: 'UNIPRO' })",
+      "  const { $ } = unipro",
+      "  const _ticket = 'txxx'",
+      "",
+      "  const createBanner = copy => {",
+      "    options.log.info('UNIPRO: createBanner')",
+      "    return $(`",
+      "      <div class=\"\\${_ticket}\">",
+      "        <span>\\${copy}</span>",
+      "      </div>`)",
+      "  }",
+      "",
+      "  const runVariation = () => {",
+      "    options.log.info('UNIPRO: runVariation')",
+      "",
+      "    const { copy } = options.data",
+      "    const { \\$div1 } = options.state.get('state')",
+      "",
+      "    const \\$banner = createBanner(copy)",
+      "    \\$banner.insertAfter(\\$div1)",
+      "    unipro.onRemove(() => \\$banner.remove())",
+      "  }",
+      "",
+      "  runVariation()",
+      "}",
+      ""
+    ],
+    "description": "Variation Template"
+  }
+}

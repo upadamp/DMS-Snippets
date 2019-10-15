@@ -1,0 +1,153 @@
+{
+  "Unipro Fields Template": {
+    "prefix": "!dms-fields",
+    "body": [
+      "{",
+      "  \"fields\": [",
+      "    {",
+      "      \"key\": \"title\",",
+      "      \"type\": \"String\",",
+      "      \"label\": \"Title\",",
+      "      \"groupId\": \"options\",",
+      "      \"footnote\": \"\",",
+      "      \"required\": true,",
+      "      \"description\": \"Change the title of your banner\"",
+      "    },",
+      "    {",
+      "      \"key\": \"image\",",
+      "      \"type\": \"Image\",",
+      "      \"label\": \"Image\",",
+      "      \"groupId\": \"options\",",
+      "      \"required\": true,",
+      "      \"description\": \"The banner image\"",
+      "    },",
+      "    {",
+      "      \"key\": \"link\",",
+      "      \"type\": \"URL\",",
+      "      \"label\": \"Link\",",
+      "      \"groupId\": \"options\",",
+      "      \"required\": true,",
+      "      \"description\": \"Where your banner links to\"",
+      "    },",
+      "    {",
+      "      \"key\": \"behaviour\",",
+      "      \"type\": \"Boolean\",",
+      "      \"label\": \"Open in new page\",",
+      "      \"groupId\": \"options\",",
+      "      \"required\": true,",
+      "      \"description\": \"If true, will open the link in a new page\"",
+      "    },",
+      "    {",
+      "      \"key\": \"number\",",
+      "      \"type\": \"Number\",",
+      "      \"label\": \"Times\",",
+      "      \"groupId\": \"options\",",
+      "      \"required\": true,",
+      "      \"description\": \"The number of times you want to show the banner\"",
+      "    }",
+      "  ],",
+      "  \"groups\": [",
+      "    {",
+      "      \"id\": \"options\",",
+      "      \"title\": \"Experience options\"",
+      "    }",
+      "  ]",
+      "}"
+    ],
+    "description": "Unipro Fields Template"
+  },
+  "Field String": {
+    "prefix": "!dms-field-string",
+    "body": [
+      "{",
+      "  \"key\": \"title\",",
+      "  \"type\": \"String\",",
+      "  \"label\": \"Title\",",
+      "  \"groupId\": \"options\",",
+      "  \"required\": true,",
+      "  \"description\": \"\"",
+      "},"
+    ],
+    "description": "Field String"
+  },
+  "Field String Array": {
+    "prefix": "!dms-field-string-array",
+    "body": [
+      "{",
+      "  \"key\": \"stringArray\",",
+      "  \"type\": \"StringArray\",",
+      "  \"label\": \"String Array\",",
+      "  \"groupId\": \"options\",",
+      "  \"required\": true,",
+      "  \"description\": \"\"",
+      "},"
+    ],
+    "description": "Field String"
+  },
+  "Field Number": {
+    "prefix": "!dms-field-number",
+    "body": [
+      "{",
+      "  \"key\": \"number\",",
+      "  \"type\": \"Number\",",
+      "  \"label\": \"Number\",",
+      "  \"groupId\": \"options\",",
+      "  \"required\": true,",
+      "  \"description\": \"\"",
+      "}"
+    ],
+    "description": "Field Number"
+  },
+  "Field Image": {
+    "prefix": "!dms-field-image",
+    "body": [
+      "{",
+      "  \"key\": \"image\",",
+      "  \"type\": \"Image\",",
+      "  \"label\": \"Image\",",
+      "  \"groupId\": \"options\",",
+      "  \"required\": true,",
+      "  \"description\": \"\"",
+      "},"
+    ],
+    "description": "Field Image"
+  },
+  "Field Boolean": {
+    "prefix": "!dms-field-boolean",
+    "body": [
+      "{",
+      "  \"key\": \"behaviour\",",
+      "  \"type\": \"Boolean\",",
+      "  \"label\": \"Boolean\",",
+      "  \"groupId\": \"options\",",
+      "  \"required\": true,",
+      "  \"description\": \"\"",
+      "},"
+    ],
+    "description": "Field Boolean"
+  },
+  "Field URL": {
+    "prefix": "!dms-field-url",
+    "body": [
+      "{",
+      "  \"key\": \"link\",",
+      "  \"type\": \"URL\",",
+      "  \"label\": \"Link\",",
+      "  \"groupId\": \"options\",",
+      "  \"required\": true,",
+      "  \"description\": \"\"",
+      "},"
+    ],
+    "description": "Field URL"
+  },
+  "Fields Group": {
+    "prefix": "!dms-fields-group",
+    "body": [
+      "{",
+      "  \"id\": \"options\",",
+      "  \"title\": \"Experience options\"",
+      "}"
+    ],
+    "description": "Fields Group"
+  }
+}
