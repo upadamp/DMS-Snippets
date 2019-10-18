@@ -31,11 +31,13 @@ This is the README for the extension "dms-snippets". Commonly used snippets for 
 
 ## How to Install
 
-Copy the dms-snippets folder and paste into the following directory
+1. Click the `Clone or download` button on the git repo, and click `Download ZIP`.
+2. Unzip the dms-snippets folder and paste into the following directory
 
 ```
-users/<name>/.vscode/extensions/
+C:/Users/<name>/.vscode/extensions/
 ```
+3. Restart VSCode.
 
 ## How to Extend
 
